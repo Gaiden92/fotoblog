@@ -127,4 +127,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# 
 AUTH_USER_MODEL = "authentification.User"
+
+# Permet de connaitre l'url de la page de connexion afin de rédiriger l'utilisateur deconnecté
+LOGIN_URL = "login"
